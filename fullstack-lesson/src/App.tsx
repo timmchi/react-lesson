@@ -6,13 +6,20 @@
 
 // Step 2. Create files (components) which will house the parts you came up with in the first step
 
-// Step 3. Start building based on the structure you've created
+// * in this step, you can create a mock structure without implementing logic
 
-const API_LINK = "https://studies.cs.helsinki.fi/restcountries/";
-const ALL_COUNTRIES = "/api/all";
+// Step 3. Continue building based on what you've already created
+import CountrySearch from "./Components/CountrySearch";
+
+// const API_LINK = "https://studies.cs.helsinki.fi/restcountries/";
+// const ALL_COUNTRIES = "/api/all";
 
 function App() {
-  return <>hello world</>;
+  return (
+    <>
+      <CountrySearch />
+    </>
+  );
 }
 
 export default App;
