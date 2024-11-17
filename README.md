@@ -26,8 +26,6 @@ useEffect(() => {
 }, [dependencies]);
 ```
 
-## Example
-
 # Components
 
 - Components are the building blocks of a React app.
@@ -40,9 +38,15 @@ useEffect(() => {
 
 ## Example
 
-To practice what we've learned so far, let's do an exercise from University of Helsinki's Full Stack Open, which is a great resource to learn React.
+To practice what we've learned so far, I'm going to do an exercise from University of Helsinki's Full Stack Open, which is a great resource to learn React.
 
 [Here](https://fullstackopen.com/en/part2/adding_styles_to_react_app) is the link to the page, and we are going to do exercises 2.18 and 2.19.
+
+If you want to follow along, I suggest that you set up a React project using Vite by running the following command:
+
+```
+npm create vite@latest app-name -- --template react-ts
+```
 
 # My Advice
 
@@ -70,6 +74,6 @@ Always have the browser console open during development to catch warnings, error
 
 - The only way to learn how to use React or just learn how to code in general is to practice.
 
-Best way to practice is to make your own projects.
+- Best way to practice is to make your own projects.
 
 - When you run into errors and fix them, you learn a great deal
