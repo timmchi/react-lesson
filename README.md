@@ -10,6 +10,10 @@ The `useState` hook is a fundamental hook in React for adding state to functiona
 const [state, setState] = useState(initialState);
 ```
 
+### Explanation
+
+State is like a component's memory - it keeps track of information that can change over time, e.g., a game score or whether a button was clicked. When the state changes, React updates the screen to show the new information automatically. Read more [here] (https://react.dev/reference/react/useState).
+
 ## useEffect
 
 The `useEffect` hook lets you perform side effects in functional components. It can handle data fetching, subscriptions, or manually changing the DOM. It's for synchronization of React with external things
@@ -26,7 +30,9 @@ useEffect(() => {
 }, [dependencies]);
 ```
 
-## Example
+### Explanation
+
+`useEffect` in React is like setting a reminder for your component to do something after it updates, like fetching data. It helps you handle things that happen outside the component, like talking to a server or listening to a user scrolling the page. Read more [here](https://react.dev/reference/react/useEffect).
 
 # Components
 
@@ -40,9 +46,15 @@ useEffect(() => {
 
 ## Example
 
-To practice what we've learned so far, let's do an exercise from University of Helsinki's Full Stack Open, which is a great resource to learn React.
+To practice what we've learned so far, I'm going to do an exercise from University of Helsinki's Full Stack Open, which is a great resource to learn React.
 
 [Here](https://fullstackopen.com/en/part2/adding_styles_to_react_app) is the link to the page, and we are going to do exercises 2.18 and 2.19.
+
+If you want to follow along, I suggest that you set up a React project using Vite by running the following command:
+
+```
+npm create vite@latest app-name -- --template react-ts
+```
 
 # My Advice
 
@@ -70,6 +82,6 @@ Always have the browser console open during development to catch warnings, error
 
 - The only way to learn how to use React or just learn how to code in general is to practice.
 
-Best way to practice is to make your own projects.
+- Best way to practice is to make your own projects.
 
 - When you run into errors and fix them, you learn a great deal
