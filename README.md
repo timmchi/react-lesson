@@ -30,13 +30,19 @@ useEffect(() => {
 
 # Components
 
-Components are the building blocks of a React app.
+- Components are the building blocks of a React app.
+
+- There are many benefits to writing your code using components:
+
+  - They allow you to break down huge files into more manageable smaller parts
+  - Creating and using reusable components (e.g., buttons or input fields) can speed up your development
+  - You can separate logic from presentation, which helps when testing
 
 ## Example
 
-Let's practice breaking down a large piece of code into smaller components
+To practice what we've learned so far, let's do an exercise from University of Helsinki's Full Stack Open, which is a great resource to learn React.
 
-Gonna make a calculated error and introduce a bug somewhere, which I'm gonna fix with the console and console logs
+[Here](https://fullstackopen.com/en/part2/adding_styles_to_react_app) is the link to the page, and we are going to do exercises 2.18 and 2.19.
 
 # My Advice
 
