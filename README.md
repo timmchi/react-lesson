@@ -76,7 +76,7 @@ Before reaching for `useEffect`, make sure it's necessary. In many cases, side e
 Always have the browser console open during development to catch warnings, errors, and logs:
 
 - Use `console.log` to see what really goes on in your components and to track data flow
-- clg command for console.log, utilize your vscode!
+- clg command for console.log, utilize your vscode! Learn more [here](https://code.visualstudio.com/docs/getstarted/keybindings)
 
 ## 4. If it doesn't make sense yet, keep practicing until it "clicks"
 
