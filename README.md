@@ -50,10 +50,17 @@ To practice what we've learned so far, I'm going to do an exercise from Universi
 
 [Here](https://fullstackopen.com/en/part2/adding_styles_to_react_app) is the link to the page, and we are going to do exercises 2.18 and 2.19.
 
-If you want to follow along, I suggest that you set up a React project using Vite by running the following command:
+If you want to follow along, I suggest that you set up a React project using Vite by running the following command, note that you will have to install axios:
 
 ```
 npm create vite@latest app-name -- --template react-ts
+npm install axios
+```
+
+or clone this repository and install dependencies:
+
+```
+git clone https://github.com/timmchi/react-lesson.git && npm install
 ```
 
 # My Advice
