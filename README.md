@@ -60,7 +60,7 @@ npm install axios
 or clone this repository and install dependencies:
 
 ```
-git clone https://github.com/timmchi/react-lesson.git && npm install
+git clone https://github.com/timmchi/react-lesson.git && cd react-lesson/fullstack-lesson && npm install
 ```
 
 # My Advice
