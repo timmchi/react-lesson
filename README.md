@@ -12,7 +12,7 @@ const [state, setState] = useState(initialState);
 
 ### Explanation
 
-State is like a component's memory - it keeps track of information that can change over time, e.g., a game score or whether a button was clicked. When the state changes, React updates the screen to show the new information automatically. Read more [here] (https://react.dev/reference/react/useState).
+State is like a component's memory - it keeps track of information that can change over time, e.g., a game score or whether a button was clicked. When the state changes, React updates the screen to show the new information automatically. Read more [here](https://react.dev/reference/react/useState).
 
 ## useEffect
 
