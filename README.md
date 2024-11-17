@@ -10,6 +10,10 @@ The `useState` hook is a fundamental hook in React for adding state to functiona
 const [state, setState] = useState(initialState);
 ```
 
+### Explanation
+
+State is like a component's memory - it keeps track of information that can change over time, e.g., a game score or whether a button was clicked. When the state changes, React updates the screen to show the new information automatically. Read more [here] (https://react.dev/reference/react/useState)
+
 ## useEffect
 
 The `useEffect` hook lets you perform side effects in functional components. It can handle data fetching, subscriptions, or manually changing the DOM. It's for synchronization of React with external things
@@ -25,6 +29,10 @@ useEffect(() => {
   };
 }, [dependencies]);
 ```
+
+### Explanation
+
+`useEffect` in React is like setting a reminder for your component to do something after it updates, like fetching data. It helps you handle things that happen outside the component, like talking to a server or listening to a user scrolling the page. Read more [here](https://react.dev/reference/react/useEffect)
 
 # Components
 

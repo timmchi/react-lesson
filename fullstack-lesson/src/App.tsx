@@ -9,17 +9,12 @@
 // * in this step, you can create a mock structure without implementing logic
 
 // Step 3. Continue building based on what you've already created
-import CountrySearch from "./Components/CountrySearch";
 
 // const API_LINK = "https://studies.cs.helsinki.fi/restcountries/";
 // const ALL_COUNTRIES = "/api/all";
 
 function App() {
-  return (
-    <>
-      <CountrySearch />
-    </>
-  );
+  return <>hello world</>;
 }
 
 export default App;
