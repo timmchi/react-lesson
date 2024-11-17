@@ -12,7 +12,7 @@ const [state, setState] = useState(initialState);
 
 ### Explanation
 
-State is like a component's memory - it keeps track of information that can change over time, e.g., a game score or whether a button was clicked. When the state changes, React updates the screen to show the new information automatically. Read more [here] (https://react.dev/reference/react/useState)
+State is like a component's memory - it keeps track of information that can change over time, e.g., a game score or whether a button was clicked. When the state changes, React updates the screen to show the new information automatically. Read more [here] (https://react.dev/reference/react/useState).
 
 ## useEffect
 
@@ -32,7 +32,7 @@ useEffect(() => {
 
 ### Explanation
 
-`useEffect` in React is like setting a reminder for your component to do something after it updates, like fetching data. It helps you handle things that happen outside the component, like talking to a server or listening to a user scrolling the page. Read more [here](https://react.dev/reference/react/useEffect)
+`useEffect` in React is like setting a reminder for your component to do something after it updates, like fetching data. It helps you handle things that happen outside the component, like talking to a server or listening to a user scrolling the page. Read more [here](https://react.dev/reference/react/useEffect).
 
 # Components
 
